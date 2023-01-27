@@ -1,0 +1,338 @@
+ /*Estilo para toda la pagina*/
+ body{
+    /*El color de fondo*/
+    background-color: lightsteelblue;
+    /*Margen a 0 para que el menu se pege al borde del navegador*/
+    margin: 0px;
+}     
+
+/*Estilo para el menu(barra de navegacion)*/
+.menu{
+    /*Para que las opciones en el menu aparezcan de izquierda a derecha*/
+    display:inline-block;
+    /*Para que no aparezca ningun simbolo de lista*/
+    list-style: none;
+    /*Para que no tenga espacio entre el contenido y bordes*/
+    padding: 0;
+    /*Color de todo el menu*/
+    background: #092327;
+    /*Anchura a 100% para que ocupe todo el ancho de la pagina*/
+    width: 100%;
+    /*Margen a 0 para que se centre solo*/
+    margin: auto;
+    /*Texto centrado*/
+    text-align: center;
+    /*El tamaño de la letra a 20% mas que lo normal para que se vea mas*/
+    font-size: 120%;
+}
+
+/*Estilo de los enlaces dentro de cada opcion*/
+.menu li a{
+    /*Estilo de la lista para que no aparezcan simbolos de lista*/
+    text-decoration: none;
+    /*Color de la letra*/
+    color: white;
+    /*Espacio entre el borde y el texto*/
+    padding: 20px;
+    /*Opcion para que ocupe un bloque de espacio*/
+    display: block;
+}
+
+/*Estilo para cada elemento del menu*/
+.menu li{
+    /*Que aparezcan de inquierda a derecha*/
+    display: inline-block;
+    /*Que el texto este centrado*/
+    text-align: center;
+}
+
+/*Estilo para los elementos del menu mientras se mantiene encima el puntero de raton*/
+.menu li a:hover{
+    /*Cambia el color del fondo cuando se pone el raton encima*/
+    background: #ef8354;
+}
+
+/*Estilo para el titulo*/
+#titulo{
+    /*Tamaño del texto*/
+    font-size: 400%;
+    /*Texto centrado*/
+    text-align: center;
+    /*Estilo de la letra*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*Margen abajo del titulo*/
+    margin-bottom: 5px;
+}
+
+/*Estilo del subtitulo*/
+#subtitulo{
+    /*Texto centrado*/
+    text-align: center;
+    /*Estilo de la letra*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*Margen encim del subtitulo*/
+    margin-top: 5px;
+}
+
+/*Estilo de la imagen del titulo*/
+#logo{
+    /*Para que aparezcan centrado*/
+    display: block;
+    /*Espacio de 30 pixeles arriba y abajo; auto lo dentro de izquierda a derecha*/
+    margin: 30px auto;
+    /*Borde de la imagen*/
+    border: 2px solid black;
+    /*Anchura del 15%*/
+    width: 15%;
+}
+
+/*Estilo para todo los div*/
+div{
+    /*Espacio de 50 pixeles arriba y abajo; 30 pixeles en la izquierda y derecha*/
+    margin: 50px 30px;
+    /*Borde de la imagen*/
+    border: 3px solid black;
+    /*Redondea el borde*/
+    border-start-end-radius: 50;
+    /*Espacio entre los bordes y el contenido(texto, imagenes...)*/
+    padding: 20px 20px;
+}
+
+/*Estilo de los textos en la etiqueta p*/
+p{
+    /*Tamaño del texto*/
+    font-size: 120%;
+}
+
+/*Estilo del apartado Quienes somos*/
+#Quienessomos{
+    /*Estilo de la letra*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*El texto centrado*/
+    text-align: center;
+    /*Color del fondo*/
+    background-color: lightblue;
+    /*Espacio de 0 entre el borde y el texto de arriba a abajo y de 200 pixeles en la izquierda y derecha*/
+    padding: 0px 200px;
+}
+
+/*Estilo del apartado Donde estamos*/
+#Dondeestamos{
+    /*Estilo de la letra*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*El texto centrado*/
+    text-align: center;
+    /*Color del fondo*/
+    background-color: lightcoral;
+}
+
+/*Estilo del mapa del apartado Donde estamos*/
+#mapa{
+    /*Borde del contenedor*/
+    border: 5px solid black;
+    display: inline-block;
+    /*Para que no haya espacio entre el borde y el mapa*/
+    padding: 0%;
+    /*Para que no haya espacio entre el texto externo y el mapa*/
+    margin: 0%;
+}
+
+/*Estilo del apartado Proyectos realizados*/
+#Proyectosrealizados{
+    /*Estilo de la letra*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*Texto centrado*/
+    text-align: center;
+    /*Color del fondo*/
+    background-color: lightgoldenrodyellow;
+    /*El borde del contenedor*/
+    border: 5px solid black;
+}
+
+/*Estilo de las etiqueta "section"*/
+section{
+    /*Espacio entre el apartado anterior y siguiente arriba y abajo, espacio de 30 pixeles en la izquierda y derecha del borde de la paguina*/
+    margin: 50px 30px;
+    /*Borde*/
+    border: 3px solid black;
+    /*Redondea el marco*/
+    border-start-end-radius: 50;
+    /*Espacio entre el borde y el contenido*/
+    padding: 20px 20px;
+}
+
+/*Estilo de cada articulo en section*/
+article{
+    /*Color del fondo*/
+    background-color: rgb(243, 217, 178);
+    /*Para que aparezcan de izquierda a derecha*/
+    display: inline-block;
+    /*Borde*/
+    border: 5px solid black;
+    /*Espacio entre el borde y el contenido*/
+    padding: 1%;
+    /*Espacio entre los articles*/
+    margin: 1%;
+    /*Anchura que ocupan*/
+    width: 28%;
+    /*Altura que ocupan*/
+    height: 25%;            
+}
+
+/*Estilo de las imagenes dentro de cada article*/
+article img{
+    /*Para que aparezcan centradas*/
+    display: inline-block;
+    /*Borde*/
+    border: 3px solid black;
+    /*Anchura de la imagen dentro del article*/
+    width: 80%;
+}
+
+/*Estilo de los parrafos dentro de article*/
+article p{
+    /*Espacio del 8% en la izquierda y derecha para que no esten pegadas a los bordes*/
+    padding: 0% 8%;
+}
+
+/*Anchura del proyecto Hackathon*/
+#Proyecto_4{
+    width: 40%;
+}
+
+/*Anchura de la imagen del proyecto Hackathon*/
+#Proyecto_4 img{
+    width: 50%;
+}
+
+/*Estilo del apartado contacta con nosotros*/
+#Contactaconnosotros{
+    /*Estilo de la letra*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*Color del fondo*/
+    background-color: lightgreen;
+    text-align: center;
+}
+
+/*Estilo del titulo del apartado contacta con nosotros*/
+#Contactaconnosotros h1{
+    /*Texto centrado*/
+    text-align: center;
+}
+
+/*Estilo del texto dentro del formulario del apartado contacta con nosotros*/
+#Contactaconnosotros form p{
+    /*0 espacio abajo del texto*/
+    margin-bottom: 0px;
+}
+
+/*Estilo del texto de cada campo dentro del formulario del apartado contacta con nosotros*/
+#Contactaconnosotros form label{
+    /*Que aparezcan de izquierda a derecha*/
+    display: inline-block;
+    /*EEspacio de 5 pixeles arriba y abajo*/
+    margin: 5px auto;
+}
+
+/*Estilo de cada recuadro de campo dentro del formulario del apartado contacta con nosotros*/
+#Contactaconnosotros form input{
+    /*Que aparezcan de izquierda a derecha*/
+    display: inline-block;
+    /*Texto centrado*/
+    text-align: center;
+    /*20 pixeles de espacio a la derecha del campo*/
+    margin-right: 20px;
+}
+
+/*Estilo del apartado galeria de imagenes*/
+#Galeriadeimagenes{
+    /*Texto centrado*/
+    text-align: center;
+    /*Color del fondo*/
+    background-color: lightcyan;
+}
+
+/*Estilo de la primera imagen del apartado galeria de imagenes*/
+#img1{
+    /*Anchura de la imagen*/
+    width: 35%;
+    /*Espacio alrededor de la imagen*/
+    margin: 20px;
+    /*Borde*/
+    border: 5px solid black;
+}
+
+/*Estilo de la segunda imagen del apartado galeria de imagenes*/
+#img2{
+    /*Anchura de la imagen*/
+    width: 25%;
+    /*Espacio alrededor de la imagen*/
+    margin: 20px;
+    /*Borde*/
+    border: 5px solid black;
+}
+
+/*Estilo de la tercera imagen del apartado galeria de imagenes*/
+#img3{
+    /*Anchura de la imagen*/
+    width: 25%;
+    /*Espacio alrededor de la imagen*/
+    margin: 20px;
+    /*Borde*/
+    border: 5px solid black;
+}
+
+/*Estilo de la cuarta imagen del apartado galeria de imagenes*/
+#img4{
+    /*Anchura de la imagen*/
+    width: 25%;
+    /*Espacio alrededor de la imagen*/
+    margin: 20px;
+    /*Borde*/
+    border: 5px solid black;
+}
+
+/*Estilo de la quinta imagen del apartado galeria de imagenes*/
+#img5{
+    /*Anchura de la imagen*/
+    width: 35%;
+    /*Espacio alrededor de la imagen*/
+    margin: 20px;
+    /*Borde*/
+    border: 5px solid black;
+}
+
+/*Estilo del pie de pagina*/
+footer{
+    /*Color del fondo*/
+    background-color: lightpink;
+    /*Borde*/
+    border: 3px solid black;
+    /*Espacio entre los bordes y el contenido*/
+    padding: 20px 20px;
+}
+
+/*Estilo del titulo del pie de pagina*/
+footer h2{
+    /*Para que no haya espacio alrededor*/
+    margin: 0;
+}
+
+/*Estilo de los links del pie de pagina*/
+footer div a{
+    /*Para que aparezcan de arriba a abajo*/
+    font-size: large;
+}
+
+footer div{
+    /*Para que aparezcan de arriba a abajo*/
+    margin: 0;
+    padding: 10px;
+    border: 0;
+}
+
+.logos{
+    width: 3%;
+    display: inline-block;
+    margin: 10px 10px;
+}

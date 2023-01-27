@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Tipo de codificacion-->
+	<meta charset="UTF-8">
+    <!--Titulo de  la pagina web-->
+	<title>IN.Yu</title>
+    <!--Estilos en el archivo CSS-->
+    <link rel="stylesheet" href="estilos.css">
+    <!--Se acaba la hojas de estilo CSS-->
+</head>
+
+<!--Empieza el contenido de la pagina-->
+<body>
+<!--Empieza el encabezado-->
+<header>
+    <!--Empieza el listado con la clase"menu"-->
+    <ul class="menu">
+        <!--Primera opcion con la referecencia a la id para redireccionar-->
+        <li><a href="#Quienessomos">¿Quiénes somos?</a></li>
+        <!--Segunda opcion con la referecencia a la id para redireccionar-->
+        <li><a href="#Dondeestamos">¿Dónde estamos?</a></li>
+        <!--Tercera opcion con la referecencia a la id para redireccionar-->
+        <li><a href="#Proyectosrealizados">Proyectos realizados</a></li>
+        <!--Cuarta opcion con la referecencia a la id para redireccionar-->
+        <li><a href="#Contactaconnosotros">Contacta con nosotros</a></li>
+        <!--Quinta opcion con la referecencia a la id para redireccionar-->
+        <li><a href="#Galeriadeimagenes">Galería de imágenes</a></li>
+    </ul>
+</header>
+<!--Acaba el encabezado-->
+
+<!--Empieza el contenido principal-->
+<main>
+    <!--Titulo de la pagina id "titulo"-->
+    <h1 id="titulo">AULA IN.YU</h1>
+    <!--Subtitulo con la id "subtitulo"-->
+    <h3 id="subtitulo">Aula PROFESIONAL DE EMPRENDIMIENTO de La Cañuela</h3>
+    <!--Imagen con la ruta al archivo con la id "logo"-->
+    <img src="./img/logotipo pagina web.png" id="logo" onclick="myFunction()">
+
+    <!--Empieza el apartado "Quienes somos" con la id "Quienessomos"-->
+    <div id="Quienessomos">
+        <!--Titulo-->
+        <h1>Quiénes somos</h1>
+        <!--Texto-->
+        <p>El aula de emprendimiento tiene la finalidad de potenciar el emprendimiento y el autoempleo entre el alumnado de Formación Profesional, tiene como objetivo una mejora en la empleabilidad del alumnado y de que sus oportunidades en el mercado de trabajos.sean las máximas, pudiendo diseñar y desarrollar sus propias iniciativas.</p>
+        <!--Texto-->
+        <p>Se busca fomentar experiencias para la creación de empresas, creando un espacio propicio en los centros educativos, en donde intervenga profesorado, alumnado, antiguo alumnado, profesionales del tejido empresarial y agentes de la administración; acercar el tejido empresarial al entorno educativo; crear en los centros educativos viveros de empresas, ofreciéndoles infraestructura, apoyo y seguimiento de un plan de negocios; o participar en convocatorias de premios comarcales, regionales o nacionales de proyectos relacionados con el emprendimiento y las Startups, entre otros.</p>
+    </div>
+
+    <!--Empieza el apartado "Donde estamos" con la id "Dondeestamos"-->
+    <div id="Dondeestamos">
+        <!--Titulo-->
+        <h1>Dónde estamos</h1>
+        <!--Texto-->
+        <p>Estamos en el centro I.E.S. La Cañuela, en Yuncos. <br> Calle Magallanes, 2. 45210, Yuncos (Toledo)</p>
+        <!--Contenedor con la id "mapa"-->
+        <div id="mapa">
+            <!--Etiqueta con inserta el google maps sacado de google-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15384.738134953874!2d-3.8869016152772797!3d40.08168570966467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41f076fd8ce043%3A0x12e4d94e7765944!2sIES%20La%20Ca%C3%B1uela!5e0!3m2!1sen!2ses!4v1669821211064!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <!--Empieza el apartado "Proyectos realizados" con la id "Proyectosrealizados"-->
+    <section id="Proyectosrealizados">
+        <!--Titulo-->
+        <h1>Proyectos realizados</h1>
+        <!--Empieza el articulo del proyecto 1-->
+        <article id="Proyecto_1">
+            <!--Imagen-->
+            <img src="./img/Proyecto_1.png">
+            <!--Titulo-->
+            <h3>Dinámica 1: "NASA"</h3>
+            <!--Texto-->
+            <p>Con ella se realizó la búsqueda de perfiles para la cohesión grupal, roles y trabajo colaborativo.</p>
+        </article>
+
+        <!--Empieza el articulo del proyecto 2-->
+        <article id="Proyecto_2">
+            <!--Imagen-->
+            <img src="./img/Proyecto_2.png">
+            <!--Titulo-->
+            <h3>Dinámica 2: "SONDERLANS_FESTIVAL"</h3>
+            <!--Texto-->
+            <p>Se trataba de un festival de emprendimiento donde se dan cita grandes talentos. Con el mismo se buscaba la participación, motivación y entusiasmo en las aulas.</p>
+        </article>
+
+        <!--Empieza el articulo del proyecto 3-->
+        <article id="Proyecto_3">
+            <!--Imagen-->
+            <img src="./img/Proyecto_3.png">
+            <!--Titulo-->
+            <h3>Dinámica 3: "DISEÑA TU VESTIDO DE NOVIA"</h3>
+            <!--Texto-->
+            <p>En ella los alumnos trabajaron la comunicación, la cooperación, la creatividad y el trabajo en equipo.</p>
+        </article>
+
+        <!--Empieza el articulo del proyecto 4-->
+        <article id="Proyecto_4">
+            <!--Imagen-->
+            <img src="./img/Proyecto_4.png">
+            <!--Titulo-->
+            <h3>Dinámica 4: "HACKATHON"</h3>
+            <!--Texto-->
+            <p>Es un evento tecnológico donde se reúnen personas con perfiles de tecnología, emprendimiento, diseño y marketing para desarrollar de manera conjunta soluciones a una problemática definida por las empresas retadoras del evento.</p>
+            <p>El propósito del hackathon es que el alumnado plantee y diseñe soluciones digitales a problemas que surgen entre las PYMES en su día a día.</p>
+        </article>
+
+        <!--Empieza el articulo del proyecto 5-->
+        <article id="Proyecto_5">
+            <!--Imagen-->
+            <img src="./img/Proyecto_5.png">
+            <!--Titulo-->
+            <h3>Dinámica 5 y 6: "BOLÍGRAFO " Y "VASOS"</h3>
+            <!--Texto-->
+            <p>Estas dinámicas persiguen comprobar la importancia por igual de todos los miembros del equipo.</p>
+        </article>
+    </section>
+
+    <!--Empieza el apartado "Contacta con nosotros" con la id "Contactaconnosotros"-->
+    <div id="Contactaconnosotros">
+        <!--Titulo-->
+        <h1>Contacta con nosotros</h1>
+        <!--Empieza el formulario-->
+        <form>
+            <!--Etiqueta de texto y campo para introducir texto para el nombre-->
+            <!--Etiqueta para el campo nombre-->
+            <label for="nombre">Nombre</label>
+            <!--Campo de tipo texto para el nombre-->
+            <input type="text" id="nombre" name="nombre" pattern="[A-Za-z]{1,15}" title="Tu nombre, maximo 15 letras, sin espacios" required>
+
+            <!--Etiqueta de texto y campo para introducir texto para el apellido 1 -->
+            <!--Etiqueta para el campo nombre-->
+            <label for="apellido1">Primer apellido</label>
+            <!--Campo de tipo texto para los apellidos-->
+            <input type="text" id="apellido1" name="apellido1" pattern="[A-Za-z]{1,20}" title="Tu primer apellido, maximo 20 letras, sin espacios" required>
+
+            <!--Etiqueta de texto y campo para introducir texto para el apellido 2 -->
+            <!--Etiqueta para el campo nombre-->
+            <label for="apellido2">Segundo apellido</label>
+            <!--Campo de tipo texto para los apellidos-->
+            <input type="text" id="apellido2" name="apellido2" pattern="[A-Za-z]{1,20}" title="Tu segundo apellido, maximo 20 letras, sin espacios" required>
+
+            <!--Etiqueta de texto y campo para introducir texto para el email -->
+            <!--Etiqueta para el campo nombre-->
+            <label for="email">Email</label>
+            <!--Campo de tipo texto para los apellidos-->
+            <input type="email" id="email" name="email" required>
+
+            <!--Etiqueta de texto y campo para introducir la fecha para el nacimiento-->
+            <!--Etiqueta para el campo nombre-->
+            <label for="nacimiento">Fecha de nacimiento</label>
+            <!--Campo de tipo fecha para la fecha de nacimiento-->
+            <input type="date" id="nacimiento" name="nacimiento" required>
+
+            <!--Etiqueta de texto y campo para introducir texto para el DNI-->
+            <!--Etiqueta para el campo nombre-->
+            <label for="DNI">DNI</label>
+            <!--Campo de tipo texto para el DNI-->
+            <input type="text" id="DNI" name="DNI" pattern="[0-9]{8}[A-Z]{1}" title="Tu DNI, 8 numeros y la letra en mayuscula, sin espacios" required>
+            
+        <!--Etiquetas de texto y opciones para seleccionar para la profesion-->
+        <!--Titulo para las opciones-->   
+        <p>Selecciona tu profesión:</p>
+        <!--Primera opcion-->
+            <!--Campo de tipo seleccionar una opcion para la profesion-->
+            <input type="radio" name="profesion" id="Alumno" >
+            <!--Etiqueta para el campo nombre-->
+            <label for="Alumno">Alumno</label><br>
+        
+        <!--Segunda opcion-->
+            <!--Campo de tipo seleccionar una opcion para la profesion-->
+            <input type="radio" name="profesion" id="Profesor">
+            <!--Etiqueta para el campo nombre-->
+            <label for="Profesor">Profesor</label><br>
+        
+        <!--Tercera opcion (otro)-->
+            <!--Campo de tipo seleccionar una opcion para la profesion-->
+            <input type="radio" name="profesion" id="Otro">
+            <!--Etiqueta para el campo nombre-->
+            <label for="Otro">Otro:</label>
+            <!--Campo de tipo texto para la opcion "otro" la profesion-->
+            <input type="text" name="profesion" id="Otro" pattern="[A-Za-z]{1,20}" title="Tu profesion, maximo 20 letras, sin espacios"><br><br>
+            <!--Campo de tipo enviar para enviar el formulario (no funciona)-->
+            <input type="submit" name="Enviar" value="Enviar">
+        </form>
+        <!--Se acaba el formulario-->
+    </div>
+
+    <!--Empieza el apartado "Galeria de imagenes" con la id "Galeriadeimagenes"-->
+    <div id="Galeriadeimagenes">
+        <!--Titulo-->
+        <h1>Galería de imágenes</h1>
+        <!--Primera imagen con la id "img1"-->
+        <img src="./img/1.jpg" id="img1">
+        <!--Segunda imagen con la id "img5"-->
+        <img src="./img/5.jpg" id="img5"><!--Salto de linea abajo--><br>
+        <!--Tercera imagen con la id "img2"-->
+        <img src="./img/2.jpg" id="img2">
+        <!--Cuarta imagen con la id "img3"-->
+        <img src="./img/3.jpg" id="img3">
+        <!--Quinta imagen con la id "img4"-->
+        <img src="./img/4.jpg" id="img4">
+    </div>
+</main>
+<!--Se acaba el contenido principal-->
+
+<!--Empieza el pie de pagina-->
+<footer>
+    <!--Titulo-->
+    <h2>Enlaces a las redes sociales (haz click en los iconos):</h2>
+    <!--Texto con el enlace a la pagina web del instituto-->
+    <a href="http://ies-lacanuela.centros.castillalamancha.es/content/ape-inyu"><img src="img\logotipo pagina web.png" class="logos"></a>
+    <!--Texto con el enlace al instagram de IN.YU-->
+    <a href="https://www.instagram.com/innova_yuncos/"><img src="img\logo2.webp" class="logos"></a>
+    <!--Texto con el enlace al facebook de IN.YU-->
+    <a href="https://www.facebook.com/people/Ies-La-Ca%C3%B1uela-Yuncos/100063771992726/"><img src="img\logo4.webp" class="logos"></a>
+</footer>
+<!--Acaba el pie de pagina-->
+<script>
+    function myFunction() {
+      document.getElementById("logo").style.width = "30%";
+    }
+</script>
+</body>
+<!--Acaba el contenido de la pagina-->
+</html>
+<!--Acaba el contenido de la pagina-->
